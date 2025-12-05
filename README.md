@@ -12,7 +12,7 @@ Rosey Gutierrez & Derrick Dollesin
     - `Study-I/requirements.txt` - for installing python package dependencies
     - `Study-I/experiment.py` - Python script to reproduce the experiment data, without needing web/desktop Auditomatic app
     - `Study-I/analysis.ipynb` - Original Experiment Data Analysis
-    - `README.md` - Experiment Description & reproducibility instructions and info. 
+    - `README.md` - Experiment description, reproducibility instructions and info. 
 - `Study-II/` - **Experiment II:**
     - **DERRICK TODO: organize & describe files.**
 
