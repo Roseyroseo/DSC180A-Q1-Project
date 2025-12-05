@@ -146,19 +146,20 @@ Contains cleaned, analysis-ready variables such as:
 ## Troubleshooting
 
 ### Rate Limit Errors (429)
-
-Lower concurrency or rate:
-
-```bash
-python experiment.py --concurrent 3 --rate-limit 2
 ```
-
-### Timeouts
-
-Increase timeout:
-
-```bash
-python experiment.py --timeout 180
+Retry 3 for GPT-4 after HTTPStatusError: 429 Rate Limit
 ```
+**Fix:** Reduce `--concurrent` or `--rate-limit`, or wait and use `--resume`
 
+### Extraction Failures
+```
+[WARN] GPT-4: Extraction failed. Tried: choices[0].message.content, data.content
+```
+**Fix:** Check the API response format in the database (`response` column) and update `extract_paths` in the script
+
+### Network Timeouts
+```
+Network error GPT-4: TimeoutException
+```
+**Fix:** Increase `--timeout` or check your network connection
 
