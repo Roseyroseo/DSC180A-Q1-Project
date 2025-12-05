@@ -11,6 +11,7 @@ The experiment parallels the structure of Experiment I but focuses specifically 
 
 - `experiment.py` - Python script to reproduce the experiment data, without needing web/desktop Auditomatic app
 - `analysis.ipynb`  - Original Experiment Data Analysis
+- `output.csv` - Original Data 
 - `requirements.txt` — Python dependencies  
 - Output files (generated automatically):  
   - `results_YYYYMMDD_HHMMSS.db` — Sqlite3 database with full prompt/response logs  
