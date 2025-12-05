@@ -1,5 +1,7 @@
 # Experiment I: AI Generated Detection Likelihood Scoring
 
+For this experiment, we took a short answer paragraph on the Bonus Army written by a student several years before the debut of tools like Chat GPT and prompted several AI models to return the likelihood that it was AI-generated in a JSON object. The overall short answer response is identical for every call, and the only difference is the student's name and the grade level (5th grade, 10th grade, college level, graduate level). Gender and ethnicity markers are embedded in each name, and a neutral control variable was also included. We prompted each model ten times, in order to assess the consistency of scoring across the models.  
+
 ## Contents
 
 - `requirements.txt` - for installing python package dependencies
