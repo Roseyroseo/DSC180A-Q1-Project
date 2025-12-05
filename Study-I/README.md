@@ -1,4 +1,4 @@
-# Experiment I: AI Generated Detection Likelihood Scoring**
+# Experiment I: AI Generated Detection Likelihood Scoring
 
 ## Contents
 
