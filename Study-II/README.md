@@ -143,27 +143,6 @@ Contains cleaned, analysis-ready variables such as:
 
 ---
 
-# Data Analysis (`analysis.ipynb`)
-
-The notebook provides a complete statistical audit that includes:
-
-### 1. Score Distributions  
-Comparison across models and demographic signals.
-
-### 2. ANOVA Models  
-Estimation of marginal effects for ethnicity, gender, major (if present), and model interactions.
-
-### 3. Tukey Post-Hoc Tests  
-Identification of specific demographic groups with significant score differences.
-
-### 4. Variance Heatmaps and Boxplots  
-Visualizations of within-group variance and model stability.
-
-### 5. Effect Size Interpretation  
-Explanation of eta-squared values and practical significance.
-
----
-
 # Troubleshooting
 
 ### Rate Limit Errors (429)
