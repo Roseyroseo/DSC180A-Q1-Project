@@ -14,7 +14,11 @@ Rosey Gutierrez & Derrick Dollesin
     - `Study-I/analysis.ipynb` - Original Experiment Data Analysis
     - `README.md` - Experiment description, reproducibility instructions and info. 
 - `Study-II/` - **Experiment II:**
-    - **DERRICK TODO: organize & describe files.**
+    - `README.md` - Experiment description, reproducibility instructions and info. 
+    - `Study-II/experiment.py` - Python script to reproduce the experiment data
+    - `Study-II/analysis.ipynb`  - Original Data Analysis
+    - `Study-II/output.csv` - Original Data 
+    - `Study-II/requirements.txt` — Python dependencies  
 
 
 ---
