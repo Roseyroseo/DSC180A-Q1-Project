@@ -19,7 +19,7 @@ The experiment parallels the structure of Experiment I but focuses specifically 
 
 ---
 
-# Running a New Trial
+## Running a New Trial
 
 Only one key is required.
 
@@ -62,7 +62,7 @@ This will:
 
 ---
 
-# Command-Line Options
+## Command-Line Options
 
 | Option | Default | Description |
 |--------|---------|-------------|
@@ -102,7 +102,7 @@ python experiment.py --output excel
 
 ---
 
-# Features
+## Features
 
 ### Robust SQLite Logging  
 Every request and response is recorded immediately, ensuring crash safety.
@@ -118,7 +118,7 @@ Every demographic variable becomes its own column in the exported CSV, allowing 
 
 ---
 
-# Output Files
+## Output Files
 
 After running the script, the following files are generated:
 
@@ -143,7 +143,7 @@ Contains cleaned, analysis-ready variables such as:
 
 ---
 
-# Troubleshooting
+## Troubleshooting
 
 ### Rate Limit Errors (429)
 
