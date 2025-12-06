@@ -62,6 +62,13 @@ The script checks all required keys upfront and will exit if any are missing.
 python experiment.py
 ```
 
+This will:
+
+- Create a timestamped SQLite database
+- Run all prompt variations
+- Parse numeric scores
+- Export results_*.csv upon completion
+
 ---
 
 ## Command-Line Options
